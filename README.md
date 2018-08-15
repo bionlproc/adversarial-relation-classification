@@ -7,6 +7,8 @@ Creating large datasets for biomedical relation classification can be prohibitiv
 ## Usage
 ### Training
 
+Below we display an example command line configuration to train a new model from scratch:
+
 ```
 python train_final_cnn.py --num_epochs 50 --checkpoint_dir /checkpoint/dir/experiments/checkpoints/ --checkpoint_name my_checkpoint --min_df 5 --lr 0.001 --penalty 0. --adv_train_data_X  /my/data/data1/all_train.txt --adv_test_data_X  /my/data/biogrid_train_test/all_test.txt --test_data /my/data/test_data.txt --train_data /my/data/train_data.txt --train_data_X /my/data/data2/train.txt --val_data_X /my/data/data2/test.txt --num_iters 10000 --num_disc_updates 1 --emb_reg --adv --pos_reg --hidden_state 128 --adv --seed 42
 ```
