@@ -73,7 +73,7 @@ optional arguments:
 
 ## Acknowledgements
 
-If you find this useful or relevant in your research, please cite the following paper:
+If you find this useful or relevant to your research, please cite the following paper:
 
 > Anthony Rios, Ramakanth Kavuluru, and Zhiyong Lu. "Generalizing Biomedical Relation Classification with Neural Adversarial Domain Adaptation". Bioinformatics 2018
 
