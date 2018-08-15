@@ -1,8 +1,8 @@
-# Adversarial
+# Adversarial Relation Classification
 
-This repo contains code for our unsupervised domain adaptation method for relation extraction.
+Creating large datasets for biomedical relation classification can be prohibitively expensive. While some datasets have been curated to extract protein-protein and drug-drug interactions from text, we are also interested in other interactions including gene-disease and chemical-protein connections. Also, many biomedical researchers have begun to explore ternary relationships. Even when annotated data is available, many datasets used for relation classification are inherently biased. For example, issues such as sample selection bias typically prevent models from generalizing in the wild. To address the problem of cross-corpora generalization, in this repository, we host code for a novel adversarial learning algorithm for unsupervised domain adaptation tasks where no labeled data is available for the target domain. Instead, our method takes advantage of unlabeled data to improve biased classifiers by learning domain-invariant features via a 2-stage adversarial training process using neural networks.
 
-**Note:** Examples of the data format can be found in the data/ folder.
+**Note:** Examples of the data format can be found in the data/ directory and the source code for the models are available in the models/ directory.
 
 ## Usage
 ### Training
