@@ -69,7 +69,7 @@ optional arguments:
   --pos_reg             Regularize pos embeddings?
 ```
 
-``val_data`` should contain a list of IDs in the source dataset to use to avoid over-fitting during stage 1 of the training process. We provide examples of the format and structure of the train, dev, and test datasets in the data/ directory.
+``val_data`` should contain a list of IDs in the source dataset to use to avoid over-fitting during stage 1 of the training process. We provide examples of the format and structure of the train, dev, and test datasets in the data/ directory. Also, note that while we checkpoint the model using the ``checkpoint_dir`` and ``checkpoint_name`` parameters, after stage 2 of the training process the provided source code will also make predictions on the provided test data if the ``test_data_X`` (the target test set) is used.
 
 ## Acknowledgements
 
